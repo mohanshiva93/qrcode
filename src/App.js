@@ -10,8 +10,9 @@ function App() {
     <div>
       <BrowserRouter>
           <Switch>
-            <Route exact path='/' component={Page}></Route>
-            <Route exact path='/qrdata' component={QRCodeData}></Route>            
+          <Route exact path='/' component={Page}></Route>
+            <Route exact path='qrcode/' component={Page}></Route>
+            <Route exact path='qrcode/qrdata' component={QRCodeData}></Route>            
           </Switch>
         </BrowserRouter> 
     </div>
