@@ -3,15 +3,16 @@ import {Page} from './Page'
 import {QRCodeData} from './QRCodeData'
 import OutsideAlerter from './Details'
 import './style.css'
-import {Route,Switch, BrowserRouter as Router} from 'react-router-dom';
+import {Route,Switch, HashRouter as Router} from 'react-router-dom';
 
 function App() { 
   return (
     <div className="App">
      <Router>
        <Switch>
-         <Route path='/qrcode' exact component={Page}/>
-         <Route path='/qrcode/secondpage' exact component={QRCodeData}/>
+       <Route path='/' exact component={Page}/>
+         <Route path='/tt' exact component={Page}/>
+         <Route path='/secondpage' exact component={QRCodeData}/>
        </Switch>
      </Router>
     </div>
