@@ -108,7 +108,7 @@ const onButtonClick = useCallback(() => {
         <label>URL:{url}</label><br/>
         <label>Description:{description}</label><br/><br/><br/>
         <div  ref={ref} style={{backgroundColor: 'white', padding:10, width: 276}}>
-           <QRCode value={"http://localhost:3000/" + mobile} />
+           <QRCode value={"https://mohanshiva93.github.io/qrcode/qrdata" + mobile} />
         </div>
         <br></br>
         <button type="button" class="btn btn-default" onClick={() => {setIsDataSaved(false)}} title="Clear">Back</button>   
