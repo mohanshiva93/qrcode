@@ -1,0 +1,14 @@
+.container{
+    margin-top:20px;
+    background-color: #adadada3;
+    padding: 20px;
+}
+
+.button{
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+    color: #9f5252;
+}
