@@ -66,7 +66,7 @@ export const  QRCodeData= (props) => {
             </div>
             
             <div className="col-xs-12" style={{marginTop:10}}>
-               <img src={imgURL} style={{maxWidth:500}}></img>
+               <img src={imgURL} style={{maxWidth:'100%' }}></img>
             </div>
           </div>
 
